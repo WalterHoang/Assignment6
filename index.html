@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+			<p>This app is a basic calculator app that has full keyboard control support using a 5 key and a 3 key setup.</p>
+			<ul>
+				<li>The 5-key setup uses wasd to move the cursor up, left, down, and right respectively and the e key to select the item that the cursor has highlighted</li>
+				<li>The 3-key setup uses u to move left, o to move right, and i to select the button highlighted.</li>
+			</ul>
+			<p>To evaluate the better setup of the two, I will compare the time it takes to complete 5 equations as well as comparing the amount of errors made to complete them using my left hand only. Each setup will have 3 trials and the average time and error count of each setup will be compared </p>
+			<ul>
+				<li>The equations used are: 36+73*21, (192/455)+316, (700-406)/13, (12*82)+3, and 16-5*2+12*23 </li>
+			</ul>
+			<p>Test results</p>
+			<ul>
+				<li>The 5-key setup had an average time of 1 minute and 35 seconds and an average error count of 2.3 </li>
+				<li>The 3-key setup had an average time of 1 minute and 40 seconds and an average error count of 0.6 </li>
+				<li>Thus we can conclude that the 3-key setup has a much better average performance for a user with no disabilities assuming they use their hand most comfortable to them. In this case I was most comfortable with my left hand on the left side of my keyboard. </li>
+				<li>Possible reasons: I had alternated between the 5-key and 3-key setup but have gotten used to the controls so that my times were reduced. Also, the equations were not changed inbetween trials so i eventually paid more attention to where the cursor was as the trials went on. However, I was more prone to moving the cursor elsewhere in the 5-key setup where as I didn't make that many errors but had to take longer to select the right key in the 3-key setup.</li>
+				
+			</ul>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
